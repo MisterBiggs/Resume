@@ -2607,13 +2607,13 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/dragoncapsule.jpg");
+	/*	background-image: url("../../images/dragoncapsule.jpg"); 
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		/*height: 15em; currently hidden until better picture found. */
+		height: 15em; !!!!!!!!!!currently hidden until better picture found!!!!!!!!!! */
 		width: 100%;
 		
 	}
