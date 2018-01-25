@@ -2464,8 +2464,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #00539E;
-		color: #5471d2
-	;
+		color: #5471d2;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2473,6 +2472,7 @@
 		top: 0;
 		width: 23em;
 		right: 0;
+		padding-top: 5%;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2582,6 +2582,11 @@
 					#header > nav ul li:first-child {
 						border-top: 0;
 					}
+					@media screen and (max-height: 1200px){
+						#header {
+							padding-top: 0;
+					}
+				}
 
 /* Wrapper */
 
@@ -3095,7 +3100,4 @@
 				padding: 0;
 			}
 
-	}
-	#header {
-	padding-top: 0
 	}
