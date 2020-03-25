@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "name": "Anson Biggs",
+    "label": "Aeorospace Engineering Undergrad",
+    "picture": "",
+    "email": "anson@ansonbiggs.com",
+    "phone": "(480) 322-8468",
+    "website": "anson@ansonbiggs.com",
+    "summary": "I am an undergraduate Aerospace Engineering student with a focus on Astronautics and a minor in Computer Science studying at Embry-Riddle Aeronautical University in Prescott, Arizona. ",
+    "location": {
+      "city": "Phoenix",
+      "countryCode": "US",
+      "region": "Arizona"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/ansonbiggs/"
+      },
+      {
+        "network": "GitLab",
+        "url": "https://gitlab.com/MisterBiggs"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "The Hub",
+      "position": "Team Leader",
+      "startDate": "2012",
+      "endDate": "2019",
+      "summary": "Managed a team of kitchen and serving staff.",
+      "highlights": [
+        "Ensured product quality according to customer specifications.",
+        "Made all documentation for cleaning and stocking restaurant."
+      ]
+    },
+    {
+      "company": "Redline Racing Division",
+      "startDate": "2019",
+      "endDate": "Present",
+      "position": "Business Lead",
+      "summary": "",
+      "highlights": [
+        "Make sure sub-teams are able to collaborate effectively.",
+        "Assist in managing team budget.",
+        "Manage team website, marketing, and merchandise.",
+        "Ensure that teams are properly assessed, and their respective performance targets are properly monitored.",
+        "Coordinate organization external relationships with sponsors and the local community."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Embry-Riddle Aeronautical University",
+      "area": "Aerospace Engineering with a minor in Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2017-06-01",
+      "endDate": "2021-12-10",
+      "gpa": "2.50"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Top 50 | Tegra® K1 CUDA® Vision Challenge",
+      "date": "2015",
+      "awarder": "NVIDIA",
+      "summary": "Competition which involved building a computer vision platform using a small dev board from NVIDIA which had a built in GPU."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Novice",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Numpy",
+        "Pandas",
+        "Matplotlib",
+        "SymPy",
+        "Serverless",
+        "API Endpoints"
+      ]
+    },
+    {
+      "name": "Computer Aided Design",
+      "level": "Advanced",
+      "keywords": ["Fusion 360", "CATIA", "3D Printing"]
+    },
+    { "name": "Engineering", "keywords": ["VHDL", "VIVADO", "C", "C++"] },
+    { "name": "MATLAB", "level": "Advanced", "keywords": ["Symbolic Toolbox"] },
+    {
+      "name": "Technical",
+      "keywords": [
+        "Linux CLI",
+        "Git Version Control",
+        "Docker",
+        "CI/CD",
+        "Regex"
+      ]
+    },
+    {
+      "name": "Office Software",
+      "level": "Advanced",
+      "keywords": [
+        "Word",
+        "Excel",
+        "PowerPoint",
+        "SharePoint",
+        "Outlook",
+        "OneNote",
+        "Publisher",
+        "Visio",
+        "Skype",
+        "Teams"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}
