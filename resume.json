@@ -15,13 +15,13 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "",
-        "url": "https://www.linkedin.com/in/ansonbiggs/"
+        "url": "http://linkedin.com/in/ansonbiggs"
       },
       {
         "network": "GitLab",
-        "url": "https://gitlab.com/MisterBiggs"
-      }
+        "url": "http://gitlab.com/MisterBiggs"
+      },
+      { "network": "Personal Website", "url": "http://ansonbiggs.com" }
     ]
   },
   "work": [
