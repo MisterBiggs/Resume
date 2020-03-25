@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Anson Biggs",
-    "label": "Aeorospace Engineering Undergrad",
+    "label": "Astronautical Engineering Undergrad",
     "picture": "",
     "email": "anson@ansonbiggs.com",
     "phone": "(480) 322-8468",
@@ -42,10 +42,10 @@
       "position": "Business Lead",
       "summary": "",
       "highlights": [
-        "Make sure sub-teams are able to collaborate effectively.",
-        "Assist in managing team budget.",
+        "Make sure sub-teams can collaborate effectively.",
+        "Assist in managing the team budget.",
         "Manage team website, marketing, and merchandise.",
-        "Ensure that teams are properly assessed, and their respective performance targets are properly monitored.",
+        "Ensure that teams are properly assessed, and the respective performance targets are properly monitored.",
         "Coordinate organization external relationships with sponsors and the local community."
       ]
     }
@@ -65,7 +65,7 @@
       "title": "Top 50 | Tegra® K1 CUDA® Vision Challenge",
       "date": "2015-09-01",
       "awarder": "NVIDIA",
-      "summary": "Competition which involved building a computer vision platform using a small dev board from NVIDIA which had a built in GPU."
+      "summary": "A competition which involved building a computer vision platform using a small dev board from NVIDIA which had a built-in GPU."
     }
   ],
   "skills": [
