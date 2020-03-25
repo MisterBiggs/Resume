@@ -28,8 +28,8 @@
     {
       "company": "The Hub",
       "position": "Team Leader",
-      "startDate": "2012",
-      "endDate": "2019",
+      "startDate": "2012-01-01",
+      "endDate": "2019-01-01",
       "summary": "Managed a team of kitchen and serving staff.",
       "highlights": [
         "Ensured product quality according to customer specifications.",
@@ -38,8 +38,7 @@
     },
     {
       "company": "Redline Racing Division",
-      "startDate": "2019",
-      "endDate": "Present",
+      "startDate": "2019-01-01",
       "position": "Business Lead",
       "summary": "",
       "highlights": [
@@ -64,7 +63,7 @@
   "awards": [
     {
       "title": "Top 50 | Tegra® K1 CUDA® Vision Challenge",
-      "date": "2015",
+      "date": "2015-09-01",
       "awarder": "NVIDIA",
       "summary": "Competition which involved building a computer vision platform using a small dev board from NVIDIA which had a built in GPU."
     }
