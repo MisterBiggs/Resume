@@ -1,10 +1,13 @@
-image: node
-
+# Just run
+# resume serve --theme onepage
+# Then save as index.html and push to gitlab. Auto building is too much hassle right now.
+# References:
+#   https://github.com/jsonresume/resume-cli
+#   https://github.com/ainsleyc/jsonresume-theme-onepage
+#   https://jsonresume.org/
 pages:
   stage: deploy
   script:
-    - npm install
-    - resume export index.html --theme onepage
     - mkdir .public
     - cp -r ./site/* .public
     - mv .public public
