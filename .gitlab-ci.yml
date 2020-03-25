@@ -8,7 +8,9 @@
 pages:
   stage: deploy
   script:
-    - mv index.html public/index.html
+    - mkdir .public
+    - cp -r ./* .public
+    - mv .public public
   artifacts:
     paths:
       - public
