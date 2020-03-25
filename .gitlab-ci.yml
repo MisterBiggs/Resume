@@ -3,8 +3,7 @@ image: node
 pages:
   stage: deploy
   script:
-    - npm install resume-cli
-    - npm install jsonresume-theme-onepage
+    - npm install
     - resume export index.html --theme onepage
     - mkdir .public
     - cp -r ./site/* .public
