@@ -57,7 +57,7 @@
       "studyType": "Bachelor",
       "startDate": "2017-06-01",
       "endDate": "2021-12-10",
-      "gpa": "2.50"
+      "gpa": "2.73"
     }
   ],
   "awards": [
@@ -88,7 +88,6 @@
     },
     {
       "name": "Computer Aided Design",
-      "level": "Advanced",
       "keywords": ["Fusion 360", "CATIA", "3D Printing"]
     },
     { "name": "Engineering", "keywords": ["VHDL", "VIVADO", "C", "C++"] },
@@ -105,7 +104,6 @@
     },
     {
       "name": "Office Software",
-      "level": "Advanced",
       "keywords": [
         "Word",
         "Excel",
