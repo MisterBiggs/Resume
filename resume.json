@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Anson Biggs",
-    "label": "Astronautical Engineering Undergrad",
+    "label": "Astronautical Engineering (CS Minor) Undergraduate",
     "picture": "",
     "email": "anson@ansonbiggs.com",
     "phone": "(480) 322-8468",
@@ -24,12 +24,22 @@
       { "network": "Personal Website", "url": "http://ansonbiggs.com" }
     ]
   },
+  "education": [
+    {
+      "institution": "Embry-Riddle Aeronautical University",
+      "area": "Aerospace Engineering with a minor in Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2017-06-20",
+      "endDate": "2022-05-20",
+      "gpa": "2.73"
+    }
+  ],
   "work": [
     {
       "company": "The Hub",
       "position": "Team Leader",
       "startDate": "2012-01-01",
-      "endDate": "2019-01-01",
+      "endDate": "2020-07-01",
       "summary": "Managed a team of kitchen and serving staff.",
       "highlights": [
         "Ensured product quality according to customer specifications.",
@@ -50,16 +60,7 @@
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "Embry-Riddle Aeronautical University",
-      "area": "Aerospace Engineering with a minor in Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2017-06-01",
-      "endDate": "2021-12-10",
-      "gpa": "2.73"
-    }
-  ],
+
   "awards": [
     {
       "title": "Top 50 | Tegra® K1 CUDA® Vision Challenge",
@@ -70,41 +71,45 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Novice",
-      "keywords": ["HTML", "CSS", "Javascript"]
-    },
-    {
       "name": "Python",
-      "level": "Intermediate",
-      "keywords": [
-        "Numpy",
-        "Pandas",
-        "Matplotlib",
-        "SymPy",
-        "Serverless",
-        "API Endpoints"
-      ]
+      "keywords": ["Numpy", "Pandas", "Matplotlib", "SymPy", "Serverless"]
     },
     {
       "name": "Computer Aided Design",
-      "keywords": ["Fusion 360", "CATIA", "3D Printing"]
+      "keywords": ["Fusion 360", "CATIA", "3D Printing", "Cura"]
     },
-    { "name": "Engineering", "keywords": ["VHDL", "VIVADO", "C", "C++"] },
-    { "name": "MATLAB", "level": "Advanced", "keywords": ["Symbolic Toolbox"] },
     {
-      "name": "Technical",
+      "name": "Engineering/Technical",
       "keywords": [
+        "Rust",
+        "Julia",
+        "VHDL",
+        "VIVADO",
+        "C",
+        "C++",
         "Linux CLI",
         "Git Version Control",
         "Docker",
+        "Kubernetes",
         "CI/CD",
         "Regex"
       ]
     },
     {
+      "name": "MATLAB",
+      "keywords": [
+        "Symbolic Toolbox",
+        "Control System Toolbox",
+        "Aerospace Toolbox",
+        "Simulink",
+        "Live Script"
+      ]
+    },
+
+    {
       "name": "Office Software",
       "keywords": [
+        "Teams",
         "Word",
         "Excel",
         "PowerPoint",
@@ -113,15 +118,12 @@
         "OneNote",
         "Publisher",
         "Visio",
-        "Skype",
-        "Teams"
+        "Skype"
       ]
-    }
-  ],
-  "languages": [
+    },
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "Web Development",
+      "keywords": ["HTML", "CSS", "Javascript"]
     }
   ]
 }
