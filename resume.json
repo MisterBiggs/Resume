@@ -51,16 +51,29 @@
     },
     {
       "company": "Redline Racing Division",
-      "startDate": "2019-01-01",
-      "position": "Secretary,Business Lead",
+      "position": "Secretary / Business Lead",
       "summary": "",
       "highlights": [
         "Make sure sub-teams can collaborate effectively.",
         "Assist in managing the team budget.",
         "Manage team website, marketing, and merchandise.",
         "Ensure that teams are properly assessed, and the respective performance targets are properly monitored.",
-        "Coordinate organization external relationships with sponsors and the local community."
+        "Coordinate organization relationships with sponsors and the local community."
       ]
+    },
+    {
+      "company": "Simple Stock Bots",
+      "position": "https://gitlab.com/simple-stock-bots",
+      "summary": "Python project that aims to provide a simple interface to the stock market on various platforms that allow bots.",
+      "highlights": [
+        "Thousands of monthly active users."
+      ]
+    },
+    {
+      "company": "OSTEM",
+      "position": "Active Member",
+      "summary": "Professional association for LGBTQ+ people in the STEM community.",
+      "highlights": []
     }
   ],
   "awards": [
