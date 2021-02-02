@@ -21,7 +21,10 @@
         "network": "GitLab",
         "url": "http://gitlab.com/MisterBiggs"
       },
-      { "network": "Personal Website", "url": "http://ansonbiggs.com" }
+      {
+        "network": "Personal Website",
+        "url": "http://ansonbiggs.com"
+      }
     ]
   },
   "education": [
@@ -49,7 +52,7 @@
     {
       "company": "Redline Racing Division",
       "startDate": "2019-01-01",
-      "position": "Business Lead",
+      "position": "Secretary,Business Lead",
       "summary": "",
       "highlights": [
         "Make sure sub-teams can collaborate effectively.",
@@ -60,7 +63,6 @@
       ]
     }
   ],
-
   "awards": [
     {
       "title": "Top 50 | Tegra® K1 CUDA® Vision Challenge",
@@ -72,11 +74,22 @@
   "skills": [
     {
       "name": "Python",
-      "keywords": ["Numpy", "Pandas", "Matplotlib", "SymPy", "Serverless"]
+      "keywords": [
+        "Numpy",
+        "Pandas",
+        "Matplotlib",
+        "SymPy",
+        "Serverless"
+      ]
     },
     {
       "name": "Computer Aided Design",
-      "keywords": ["Fusion 360", "CATIA", "3D Printing", "Cura"]
+      "keywords": [
+        "Fusion 360",
+        "CATIA",
+        "3D Printing",
+        "Cura"
+      ]
     },
     {
       "name": "Engineering/Technical",
@@ -105,7 +118,6 @@
         "Live Script"
       ]
     },
-
     {
       "name": "Office Software",
       "keywords": [
@@ -123,7 +135,11 @@
     },
     {
       "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
     }
   ]
 }
