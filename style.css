@@ -19,3 +19,7 @@ p {
   font-size: medium;
   margin-left: 1em;
 }
+
+body {
+  margin: auto 15% auto 10%;
+}

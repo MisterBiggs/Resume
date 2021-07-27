@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-size: x-small;
+}
+
+h2::after {
+  margin: 0;
+}
