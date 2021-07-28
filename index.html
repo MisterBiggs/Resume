@@ -138,5 +138,49 @@
         </ul>
       </li>
     </ul>
+    <div id="noprint">
+      <h2>Projects</h2>
+      <p>
+        Below are some projects that I have worked on where I found something
+        that was interesting enough to make a writeup and post.
+      </p>
+      <script>
+        const RSS_URL = `https://projects.ansonbiggs.com/index.xml`;
+
+        fetch(RSS_URL)
+          .then((response) => response.text())
+          .then((str) =>
+            new window.DOMParser().parseFromString(str, "text/xml")
+          )
+          .then((data) => {
+            console.log(data);
+            const items = data.querySelectorAll("item");
+            let html = ``;
+            items.forEach((el) => {
+              html += `
+              <article id="noprint">
+                <header><h3>
+                  <a href="${
+                    el.querySelector("link").innerHTML
+                  }" target="_blank" rel="noopener">
+                  ${el.querySelector("title").innerHTML}
+                </a>
+              </header></h3>
+              <figure>
+              <img src="${el
+                .querySelector("content")
+                .getAttribute("url")}" alt="Post Thumbnail">
+              </figure>
+                <figcaption>${
+                  el.querySelector("description").innerHTML
+                }</figcaption>
+              </article>
+              <hr>
+            `;
+            });
+            document.body.insertAdjacentHTML("beforeend", html);
+          });
+      </script>
+    </div>
   </body>
 </html>

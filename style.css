@@ -20,6 +20,10 @@ p {
   margin-left: 1em;
 }
 
+article > p {
+  margin-left: 0;
+}
+
 body {
   margin: auto 15% 5em 10%;
 }

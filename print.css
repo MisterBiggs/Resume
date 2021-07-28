@@ -6,3 +6,8 @@ body {
 h2::after {
   margin: 0;
 }
+
+#noprint {
+  display: none;
+  visibility: hidden;
+}
