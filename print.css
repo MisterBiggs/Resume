@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  padding: 0;
+  font-size: xx-small;
+}
+
+p {
   font-size: x-small;
 }
 
