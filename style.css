@@ -27,3 +27,16 @@ article > p {
 body {
   margin: auto 15% 5em 10%;
 }
+
+article {
+  padding: 0em 1em 2em;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+header > h3 {
+  font-size: xx-large;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
