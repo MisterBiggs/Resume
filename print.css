@@ -16,3 +16,8 @@ h2::after {
   display: none;
   visibility: hidden;
 }
+
+#printbutton {
+  display: none;
+  visibility: hidden;
+}
