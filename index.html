@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       name="description"
-      content="I am an undergraduate Aerospace Engineering student with a focus on Astronautics and a minor in Computer Science
+      content="Anson Biggs is an undergraduate Aerospace Engineering student with a focus on Astronautics and a minor in Computer Science
   studying at Embry-Riddle Aeronautical University in Prescott, Arizona."
     />
     <link rel="stylesheet" type="text/css" href="awsm.min.css" />
@@ -49,14 +49,20 @@
       a decade, many of my projects are used by thousands of people a month.
     </p>
     <h2>EXPERIENCE</h2>
-    <h3>The Hub, Team Leader 2012-2021</h3>
+    <h3><a href="https://hubgrill.com/">The Hub</a>, Team Leader 2012-2021</h3>
     <p>
-      Managed a team of kitchen and serving staff. <br />
-      Ensured product quality according to customer specifications. <br />
-      Made all documentation for managing business.
+      Assisted growing company from 1 to 3 successful locations. Roles ranged
+      from full building remodels to designing menus and other documentation to
+      training full teams of kitchen and serving staff. I have continued with
+      the company during my undergrad in a fast paced team leadership position
+      during my summers off from college.
     </p>
-
-    <h3>Redline Racing Division, Secretary / Business Lead 2018-2021</h3>
+    <!-- <h3>
+      <a
+        href="https://redline-racing-division.gitlab.io/redline-racing-website/"
+        >Redline Racing Division</a
+      >, Secretary / Business Lead 2018-2021
+    </h3>
     <p>
       Make sure sub-teams can collaborate effectively. <br />
       Assist in managing the team budget. <br />
@@ -65,23 +71,23 @@
       targets are properly monitored. <br />
       Coordinate organization relationships with sponsors and the local
       community.
-    </p>
+    </p> -->
     <h3>
       Simple Stock Bots,
       <a href="https://simplestockbot.com">simplestockbot.com</a> 2018-Current
     </h3>
     <p>
-      Python project that aims to provide a simple interface to the stock market
-      on various platforms that allow bots. Thousands of monthly active users.
-      Changes to its Gitlab Repository automatically update live code running in
-      a Kubernetes cluster I manage.
+      Python project that aims to provide a simple interface and social to the
+      stock market on various platforms that allow bots. Thousands of monthly
+      active users. Changes to its Gitlab Repository automatically update live
+      code running in a Kubernetes cluster I manage.
     </p>
     <h2>AWARDS AND ACHIEVEMENTS</h2>
     <h3>Top 50 | Tegra K1 CUDA Vision Challenge, NVIDIA 2015</h3>
     <p>
-      A competition which involved building a computer vision platform using a
-      small dev board from NVIDIA which had a built-in GPU. My project involved
-      implementing cameras in kitchens to ensure food was prepared properly
+      Competition which involved building a computer vision platform using a
+      small dev board with an integrated GPU from NVIDIA. My project involved
+      implementing cameras in restaurants to ensure food was prepared properly
       before being delivered to guests.
     </p>
     <h3>Discord Verified Bot Developer</h3>
@@ -94,61 +100,37 @@
     <h3>Embry-Riddle Aeronautical University Fall 2017 - May 2022</h3>
     <p>Bachelors - Aerospace Engineering with a minor in Computer Science</p>
     <h2>SKILLS</h2>
-    <ul>
-      <li>
-        Python
-        <ul>
-          <li>Numpy, Pandas, Matplotlib, SymPy, Serverless</li>
-        </ul>
-      </li>
-      <li>
-        Computer Aided Design
-        <ul>
-          <li>Fusion 360, CATIA, 3D Printing, Cura</li>
-        </ul>
-      </li>
-      <li>
-        Engineering/Technical
-        <ul>
-          <li>
-            Julia, Rust, VHDL, VIVADO, C, C++, Linux CLI, Git Version Control,
-            Regex
-          </li>
-        </ul>
-      </li>
-      <li>
-        MATLAB
-        <ul>
-          <li>
-            Symbolic Toolbox, Control System Toolbox, Aerospace Toolbox,
-            Simulink, Live Script
-          </li>
-        </ul>
-      </li>
-      <li>
-        Office Software
-        <ul>
-          <li>
-            Teams, Word, Excel, PowerPoint, SharePoint, Outlook, OneNote,
-            Publisher, Visio, Skype
-          </li>
-        </ul>
-      </li>
-      <li>
-        Web Development
-        <ul>
-          <li>
-            HTML, CSS, Javascript, Static Generation, Docker, Kubernetes, CI/CD
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <dl>
+      <dt>Python</dt>
+      <dd>Numpy, Pandas, Matplotlib, SymPy, Serverless</dd>
+      <dt>Computer Aided Design</dt>
+      <dd>Fusion 360, CATIA, 3D Printing, Cura</dd>
+      <dt>Engineering/Technical</dt>
+      <dd>
+        Julia, Rust, VHDL, VIVADO, C, C++, Linux CLI, Git Version Control,
+        Regex, Docker, Kubernetes, CI/CD, Static Generation
+      </dd>
+      <dt>MATLAB</dt>
+      <dd>
+        Symbolic Toolbox, Control System Toolbox, Aerospace Toolbox, Simulink,
+        Live Script
+      </dd>
+      <dt>Office Software</dt>
+      <dd>
+        Teams, Word, Excel, PowerPoint, SharePoint, Outlook, OneNote, Publisher,
+        Visio, Skype
+      </dd>
+    </dl>
     <div id="noprint">
       <h2>Projects</h2>
+      <br />
       <p>
         Below are some projects that I have worked on where I found something
-        that was interesting enough to make a writeup and post.
+        that was interesting enough to make a writeup and post. The full list
+        can be viewed on my projects website
+        <a href="https://projects.ansonbiggs.com">projects.ansonbiggs.com</a>
       </p>
+      <hr />
       <script>
         const RSS_URL = `https://projects.ansonbiggs.com/index.xml`;
 
@@ -164,23 +146,20 @@
             items.forEach((el) => {
               html += `
               <article id="noprint">
-                <header><h3>
-                  <a href="${
-                    el.querySelector("link").innerHTML
-                  }" target="_blank" rel="noopener">
-                  ${el.querySelector("title").innerHTML}
-                </header></h3>
-                <figure>
+                <a href="${
+                  el.querySelector("link").innerHTML
+                }" target="_blank" rel="noopener">
                   <img src="${el
                     .querySelector("content")
                     .getAttribute("url")}" alt="Post Thumbnail">
+                </a>
+                  <a href="${
+                    el.querySelector("link").innerHTML
+                  }" target="_blank" rel="noopener">
+                    <h3>${el.querySelector("title").innerHTML}</h3>
+                    <p>${el.querySelector("description").innerHTML}</p>
                   </a>
-              </figure>
-                <figcaption>${
-                  el.querySelector("description").innerHTML
-                }</figcaption>
               </article>
-              <hr>
             `;
             });
             document.body.insertAdjacentHTML("beforeend", html);
