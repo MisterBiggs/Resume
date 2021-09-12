@@ -172,8 +172,8 @@
               </article>
             `;
             detailedlist += `
-                  <dt>
-                  ${el.querySelector("title").innerHTML}</dt>
+                  <dt><a href="${el.querySelector("link").innerHTML}">
+                  ${el.querySelector("title").innerHTML}</a></dt>
                   <dd>${el.querySelector("description").innerHTML}</dd>
               `;
           });
