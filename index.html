@@ -133,30 +133,28 @@
         Visio, Skype
       </dd>
     </dl>
-    <div id="noprint">
-      <h2>Projects</h2>
-      <br />
-      <p>
-        Below are some projects that I have worked on where I found something
-        that was interesting enough to make a writeup and post. The full list
-        can be viewed on my projects website
-        <a href="https://projects.ansonbiggs.com">projects.ansonbiggs.com</a>
-      </p>
-      <hr />
-      <script>
-        const RSS_URL = `https://projects.ansonbiggs.com/index.xml`;
+    <h2>Projects</h2>
+    <br id="noprint" />
+    <p>
+      Below are some projects that I have worked on where I found something that
+      was interesting enough to make a writeup and post. The full list can be
+      viewed on my projects website
+      <a href="https://projects.ansonbiggs.com">projects.ansonbiggs.com</a>
+    </p>
+    <hr id="noprint" />
+    <script>
+      const RSS_URL = `https://projects.ansonbiggs.com/index.xml`;
 
-        fetch(RSS_URL)
-          .then((response) => response.text())
-          .then((str) =>
-            new window.DOMParser().parseFromString(str, "text/xml")
-          )
-          .then((data) => {
-            console.log(data);
-            const items = data.querySelectorAll("item");
-            let html = ``;
-            items.forEach((el) => {
-              html += `
+      fetch(RSS_URL)
+        .then((response) => response.text())
+        .then((str) => new window.DOMParser().parseFromString(str, "text/xml"))
+        .then((data) => {
+          console.log(data);
+          const items = data.querySelectorAll("item");
+          let articles = ``;
+          let detailedlist = `<dl id="onlyprint">`;
+          items.forEach((el) => {
+            articles += `
               <article id="noprint">
                 <a href="${
                   el.querySelector("link").innerHTML
@@ -173,10 +171,16 @@
                   </a>
               </article>
             `;
-            });
-            document.body.insertAdjacentHTML("beforeend", html);
+            detailedlist += `
+                  <dt>
+                  ${el.querySelector("title").innerHTML}</dt>
+                  <dd>${el.querySelector("description").innerHTML}</dd>
+              `;
           });
-      </script>
-    </div>
+          detailedlist += `</dl>`;
+          document.body.insertAdjacentHTML("beforeend", detailedlist);
+          document.body.insertAdjacentHTML("beforeend", articles);
+        });
+    </script>
   </body>
 </html>

@@ -21,3 +21,8 @@ h2::after {
   display: none;
   visibility: hidden;
 }
+
+#onlyprint {
+  display: block;
+  visibility: visible;
+}
