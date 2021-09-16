@@ -66,6 +66,7 @@ article > a > p {
 }
 
 #printbutton {
+  font-size: 150%;
   margin: 1.5em;
   position: fixed;
   bottom: 0;
