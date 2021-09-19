@@ -8,6 +8,11 @@ p {
   font-size: x-small;
 }
 
+h2 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 h2::after {
   margin: 0;
 }
