@@ -191,7 +191,8 @@
           let articles = ``;
           let detailedlist = `<dl id="onlyprint">`;
           items.forEach((el) => {
-            articles += `
+            try {
+              articles += `
               <article id="noprint">
                 <a href="${
                   el.querySelector("link").innerHTML
@@ -208,6 +209,9 @@
                   </a>
               </article>
             `;
+            } catch (err) {
+              console.log(err);
+            }
             detailedlist += `
                   <dt><a href="${el.querySelector("link").innerHTML}">
                   ${el.querySelector("title").innerHTML}</a></dt>
