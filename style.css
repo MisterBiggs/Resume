@@ -32,6 +32,23 @@ a:visited {
   color: cornflowerblue;
 }
 
+dt {
+  margin-top: 0.5em;
+}
+
+dd {
+  margin-bottom: 0;
+  margin-left: 2em;
+  text-indent: -2em;
+}
+dd > ul {
+  text-indent: 0em;
+  margin-left: -5em;
+}
+/* dd::first-line {
+  text-indent: -2em;
+} */
+
 article {
   border-radius: 20px;
   background-color: whitesmoke;
