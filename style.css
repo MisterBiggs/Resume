@@ -80,6 +80,8 @@ article > a > img {
 article > a > h3 {
   text-align: center;
   text-decoration: none;
+  margin-top: 0;
+  padding-top: 1.25em;
 }
 
 article > a > p {

@@ -176,7 +176,7 @@
         Visio, Skype, Google Workspace
       </dd>
     </dl>
-    <h2 id="onlyprint">Personal Engineering Projects</h2>
+    <h2>Engineering Project Writeups</h2>
     <br id="noprint" />
     <script>
       const RSS_URL = `https://projects.ansonbiggs.com/index.xml`;
@@ -190,27 +190,28 @@
           let articles = ``;
           let detailedlist = `<dl id="onlyprint">`;
           items.forEach((el) => {
+            articles += `
+            <article id="noprint">`;
             try {
-              articles += `
-              <article id="noprint">
-                <a href="${
-                  el.querySelector("link").innerHTML
-                }" target="_blank" rel="noopener">
+              articles += `<a href="${
+                el.querySelector("link").innerHTML
+              }" target="_blank" rel="noopener">
                   <img src="${el
                     .querySelector("content")
                     .getAttribute("url")}" alt="Post Thumbnail">
-                </a>
-                  <a href="${
-                    el.querySelector("link").innerHTML
-                  }" target="_blank" rel="noopener">
+                </a>`;
+            } catch (err) {
+              console.log(err);
+            }
+            articles += ` <a href="${
+              el.querySelector("link").innerHTML
+            }" target="_blank" rel="noopener">
                     <h3>${el.querySelector("title").innerHTML}</h3>
                     <p>${el.querySelector("description").innerHTML}</p>
                   </a>
               </article>
             `;
-            } catch (err) {
-              console.log(err);
-            }
+
             detailedlist += `
                   <dt><a href="${el.querySelector("link").innerHTML}">
                   ${el.querySelector("title").innerHTML}</a></dt>
