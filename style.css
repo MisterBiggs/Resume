@@ -80,7 +80,7 @@ article > a > img {
 article > a > h3 {
   text-align: center;
   text-decoration: none;
-  margin-top: 0;
+  margin: auto 0.25em 0.25em 0.25em;
   padding-top: 1.25em;
 }
 
